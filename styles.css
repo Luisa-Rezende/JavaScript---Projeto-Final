@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fundo do corpo da página em branco */
+    color: #333; /* Cor do texto em cinza mais escuro */
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #fff; /* Fundo do cabeçalho em branco */
+    color: #555; /* Cor do texto do cabeçalho em cinza mais claro */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para o cabeçalho */
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #555 !important; /* Cor do texto do cabeçalho em cinza mais claro */
+    text-decoration: none !important; /* Remover sublinhado */
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #555; /* Cor dos links do menu em cinza mais claro */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #333; /* Cor dos links do menu ao passar o mouse em cinza mais escuro */
+  }
+
+  /* Criação Seção inicial*/
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .section-calculadora {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #calculo-calorias label,
+  #calculo-calorias input,
+  #calculo-calorias button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #calculo-calorias button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #calculo-calorias button:hover {
+    background-color: #555;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #tabela-alimentos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabela-alimentos th, #tabela-alimentos td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #tabela-alimentos th {
+    background-color: #f2f2f2;
+  }
+  
